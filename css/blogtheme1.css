@@ -20,11 +20,11 @@
   transition: 0.3s;
 }
 
-.btable th,.btable td:hover{
+.btable th:hover,.btable td:hover{
   background-color: #eee;
 }
 
-.btable th,.btable td:active{
+.btable th:active,.btable td:active{
   background-color: #ddd;
 }
     @media screen and (min-width: 700px){
