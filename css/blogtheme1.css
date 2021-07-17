@@ -15,3 +15,35 @@
             font-size: 20px;
         }
 }
+@media screen and (min-width: 700px){
+    .bltitle {
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    color: #09c755;
+        }
+    }
+    @media screen and (max-width: 700px){
+    .bltitle {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    color: #09c755;
+        }
+    }
+    @media screen and (min-width: 700px){
+    .blsubtt {
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+    color: #0070fb;
+        }
+    }
+    @media screen and (max-width: 700px){
+    .blsubtt {
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+    color: #0070fb;
+        }
+    }
