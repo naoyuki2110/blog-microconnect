@@ -3,3 +3,15 @@
   font-size: 30;
   border-bottom: solid 1.5px #bbb;
 }
+    @media screen and (min-width: 700px){
+        .btxtmb{
+            margin: 0 100 0 100;
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .btxtmb {
+            margin: 0 10 0 10;
+            font-size: 20px;
+        }
+}
