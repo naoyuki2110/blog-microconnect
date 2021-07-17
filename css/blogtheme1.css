@@ -10,25 +10,22 @@
   height: 40vh;
 }
 
-.btable tr{
-  border-bottom: solid 2px #eee;
-  border-top: solid 2px #eee;
-  transition: 0.3s;
-}
-
-.btable tr:hover{
-  background-color: #eee;
-}
-
-.btable tr:active{
-  background-color: #ddd;
-}
-
 .btable th,.btable td{
   text-align: center;
   width: 25%;
   padding: 3px 0;
   font-size: 1rem;
+  border-bottom: solid 2px #eee;
+  border-top: solid 2px #eee;
+  transition: 0.3s;
+}
+
+.btable th,.btable td:hover{
+  background-color: #eee;
+}
+
+.btable th,.btable td:active{
+  background-color: #ddd;
 }
     @media screen and (min-width: 700px){
         .btxtmb{
