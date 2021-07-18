@@ -36,9 +36,6 @@ footer {
   width: 100%;
 }
 @media screen and (max-width: 700px) {
-  .hd {
-    display: none;
-  }
   .ft .ftmn{
     display: block;
     text-align: center;
