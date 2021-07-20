@@ -8,6 +8,10 @@ a:hover {
 a:active {
   color: #0a2e91;
 }
+.atatext {
+  text-align: center;
+  font-size: 20px;
+}
 .btn-primary {
   display: inline-block;
   padding: 15 30 15 30;
