@@ -27,13 +27,24 @@
 .btable th:active,.btable td:active{
   background-color: #ddd;
 }
-.blimg{
-  border-radius: 20px;
-  width: 100%;
+@media screen and (min-width: 700px){
+  .blimg{
+    border-radius: 15px;
+    width: 650px;
+    }
+  .blimgp{
+    text-align: center;
+    }
 }
-.blimgp{
-  text-align: center;
+@media screen and (max-width: 700px){
+  .blimg {
+    width: 100%;
+    }
+  .blimgp{
+    text-align: center;
+    }
 }
+    
     @media screen and (min-width: 700px){
         .btxtmb{
             margin: 0 100 0 100;
