@@ -38,6 +38,7 @@
 }
 @media screen and (max-width: 700px){
   .blimg {
+    border-radius: 15px;
     width: 100%;
     }
   .blimgp{
